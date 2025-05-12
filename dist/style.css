@@ -1,0 +1,22 @@
+* {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+#keyboard-btn {
+  background-color: #1a1a1a;
+  border: 0;
+  font-size: clamp(10px, 2.5vw, 30px);
+  margin: 0.125rem;
+}
+
+#guess-cell {
+  border: 2px solid #494949;
+  width: clamp(40px, 6vw, 72px);
+  height: clamp(40px, 6vw, 72px);
+}
+
+.question-icon {
+  width: clamp(12px, 2vw, 24px);
+  height: clamp(12px, 2vw, 24px);
+}
